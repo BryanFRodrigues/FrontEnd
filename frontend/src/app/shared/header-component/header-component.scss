@@ -3,9 +3,16 @@ header{
     height: 60px;
     background-color: #000000;
     margin:0 auto;
+    justify-content: space-around;
+    display: flex;
+    color:#ffffff;
+    align-items: center;
 }
 
-section{
-    background-image: url("/frontend/src/assets/banner/banner.jpg");
-    background-size: cover;
+nav ul {
+    display: flex;
+    align-items: center;
+    gap:50px;
+    list-style: none;
 }
+
