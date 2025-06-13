@@ -1,0 +1,69 @@
+#divisor {
+  width: 550px;
+  height: 2px;
+  background-color: #ADDDFA;
+  margin: 50px auto;
+}
+
+.planos {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.individual,
+.empresarial {
+  width: 320px;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.individual:hover,
+.empresarial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.individual h2,
+.empresarial h2 {
+  font-size: 1.6rem;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.individual p,
+.empresarial p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.individual ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.individual ul li {
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0077cc;
+}
