@@ -1,0 +1,9 @@
+<div class="container mt-5">
+  <h2>Login</h2>
+  <input type="text" [(ngModel)]="cpf" placeholder="Digite seu CPF" class="form-control mb-3" />
+  <button class="btn btn-primary" (click)="fazerLogin()">Entrar</button>
+
+  <div *ngIf="erroLogin" class="text-danger mt-2">
+    {{ erroLogin }}
+  </div>
+</div>
